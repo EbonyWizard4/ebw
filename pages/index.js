@@ -2,8 +2,8 @@ import { useState } from "react"
 function Home(){
     return(
         <div>
-            <h1>Meu teste React</h1>
-            <Contador />
+            <h1>Meu teste de Branch </h1>
+            /*<Contador />*/
         </div>
     )
 }
