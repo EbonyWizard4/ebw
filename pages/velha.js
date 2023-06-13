@@ -12,6 +12,7 @@ export default function Velha(){
   }
   return(
     <div >
+      <a href="/" className={styles.card}>Home</a>
       <main >
           <h1 className={styles.title}>Velha</h1>
 

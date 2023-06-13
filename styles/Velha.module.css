@@ -45,5 +45,18 @@
 
   cursor: pointer;
 }
+.card {
+  margin: 5%;
 
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: center;
+  color: #00000066;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: white;
+  align-items: center;
+}
 
