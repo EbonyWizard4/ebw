@@ -1,12 +1,4 @@
 
-
-.container{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
-}
-
 .grid{
   display: grid;
   align-items: center;
@@ -22,13 +14,13 @@
   text-align: center;
   font-size: 3rem;
   color: #555;
-  margin-bottom: 2rem;
+  margin: 2rem;
 }
 
 .board{
   display: grid;
-  grid-template-columns: repeat(3, 150px);
-  grid-template-rows: repeat(3, 150px);
+  grid-template-columns: repeat(3, 120px);
+  grid-template-rows: repeat(3, 120px);
   gap: 1rem;
 }
 
@@ -45,10 +37,10 @@
 
   cursor: pointer;
 }
-.card {
-  margin: 5%;
 
-  flex-basis: 45%;
+
+.btHome{
+  margin: 1%;
   padding: 1.5rem;
   text-align: center;
   color: #00000066;
@@ -58,5 +50,6 @@
   transition: color 0.15s ease, border-color 0.15s ease;
   background-color: white;
   align-items: center;
+  max-width: 30%;
 }
 

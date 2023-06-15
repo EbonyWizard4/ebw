@@ -12,21 +12,22 @@ export default function Velha(){
   }
   return(
     <div >
-      <a href="/" className={styles.card}>Home</a>
+      
       <main >
-          <h1 className={styles.title}>Velha</h1>
+        <a href="/" className={styles.btHome}>Home</a>
+        <h1 className={styles.title}>Velha</h1>
 
-          <div className={styles.board}>
-            {board.map((item, index) => (
-              <div 
-                key={index} 
-                className={styles.cell +" "+ item }
-                onClick={() => handleCellClick(index)}
-              >
-              {item}
-            </div>
-            ))}
+        <div className={styles.board}>
+          {board.map((item, index) => (
+            <div 
+              key={index} 
+              className={styles.cell +" "+ item }
+              onClick={() => handleCellClick(index)}
+            >
+            {item}
           </div>
+          ))}
+        </div>
       </main>
       
       <style jsx global>{`
@@ -58,7 +59,6 @@ export default function Velha(){
           align-items: center;
           justify-content: center;
 
-          height: 100vh;
         }
         .x{
           background-color: var(--X-color);
