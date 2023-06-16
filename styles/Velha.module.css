@@ -24,8 +24,9 @@
   gap: 1rem;
 }
 
-.board.gameOver{
+.board.gameOver .cell{
   opacity: 0.5;
+  cursor: not-allowed;
 
 }
 
@@ -57,4 +58,14 @@
   align-items: center;
   max-width: 30%;
 }
+
+.winnerMessage{
+  margin: 5%;
+  padding: 1.5px;
+  text-align: center;
+  align-items: center;
+  border: 1px solid #eaeaea;
+  max-width: 50rem;
+}
+
 
