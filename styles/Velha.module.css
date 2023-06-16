@@ -24,6 +24,11 @@
   gap: 1rem;
 }
 
+.board.gameOver{
+  opacity: 0.5;
+
+}
+
 .cell{
   display: grid;
   align-items: center;
