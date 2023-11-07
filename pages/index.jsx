@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Head from 'next/head'
 import styles from '../styles/Home.module.css';
+import Card from './components/Card';
 
 export default function Home() {
   return (
@@ -12,15 +13,22 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Visite <Link href='https://www.linkedin.com/in/jhone-antonio-dos-santos-792620116/'>meu perfil!</Link>
+          Visite <Link 
+          href='https://www.linkedin.com/in/antoniojhone'
+          >
+            meu perfil!
+            </Link>
         </h1>
 
-        <div className={styles.grid}>
-          <a href="/velha" className={styles.card}>
-            <h3>Jogo da velha &rarr;</h3>
-            <p>Primeiro projeto com Next.js</p>
-          </a>
-        </div>
+        <section className={styles.projetos}>
+
+          <Card 
+            titulo={'Jogo da Velha'} 
+            descricao={'Projeto de fim acadêmico introdutório a tecnologia Next.js'}
+            html_url={'/Velha'}
+          />
+          
+        </section>
 
       </main>
 

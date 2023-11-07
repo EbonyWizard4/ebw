@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import styles from '../styles/Velha.module.css';
+import styles from './Velha.module.css';
 
 export default function Velha(){
   const emptyBoard = Array(9).fill("");
