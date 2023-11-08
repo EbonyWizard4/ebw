@@ -1,5 +1,37 @@
-body {
-    padding: 20px 20px 60px;
-    max-width: 680px;
-    margin: 0 auto;
+:root{
+    --primary-collor: mediumslateblue;
 }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    place-items: grid;
+    margin: 0rem;
+}
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-block: 1rem;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+    
+
+}
+
+
