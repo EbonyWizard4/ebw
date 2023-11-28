@@ -1,0 +1,19 @@
+.Banner{
+    width: auto;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left,#1B3659,#3873A6,#95ACBF,#3873A6, #1B3659);
+    background-size: 500% 100%;
+    animation: animacao 5s infinite alternate;
+}
+
+@keyframes animacao {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 100%;
+    }
+}
