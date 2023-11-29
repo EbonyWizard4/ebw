@@ -1,12 +1,13 @@
+
 .Banner{
     width: auto;
     height: 30rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to left,#1B3659,#3873A6,#95ACBF,#3873A6, #1B3659);
-    background-size: 500% 100%;
-    animation: animacao 15s infinite alternate;
+    background-image: url("../../../img/bg-header.jpg");
+    background-position: top;
+    background-size: cover;
 }
 
 @keyframes animacao {
@@ -18,15 +19,43 @@
     }
 }
 
-.Glass{
+.Banner .Overlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
     width: 100%;
-    max-width: 300px;
-    padding: 1%;
+    height: 30rem;
+    opacity: 0.8;
+}
+
+.Banner .Glass{
+    width: 100%;
+    max-width: 500px;
+    height: 250px;
+    padding: 20px;
     border: 2px solid rebeccapurple;
     border-radius: .5rem;
     background-color: transparent;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.Texto{
-    color:#fff
+
+.Banner .Glass .Texto{
+    color: #e7ebf0;
+    font-size: 20px;
 }
+
+.Banner .Glass .Texto h1{
+    font-size: 50px;
+    color: #e7ebf0;
+}
+
+.Banner .Glass .Texto p{
+    padding: 10px;
+}
+
+
+
