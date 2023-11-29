@@ -1,0 +1,16 @@
+.Divisor{
+    width: 100%;
+    height: 0.5rem;
+    background-image: linear-gradient(to left, #1B3659, #3873A6, #95ACBF, #3873A6, #1B3659);
+    background-size: 500% 100%;
+    animation: animacao 3s infinite alternate;
+}
+
+@keyframes animacao {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 100%;
+    }
+}
