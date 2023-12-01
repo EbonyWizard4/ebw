@@ -1,0 +1,16 @@
+.Container h2 {
+    padding: 40px;
+}
+.Infobox{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.Infocard{
+    width: 800px;
+    height: 250px;
+    padding: 40px;
+    border: 2px solid rebeccapurple;
+    margin: 2px 2px;
+}   
