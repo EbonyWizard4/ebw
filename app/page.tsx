@@ -1,3 +1,4 @@
+import { Header } from '@/components/Header'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -5,7 +6,9 @@ export default function Home() {
   return (
     // container principal
     <main className="flex min-h-screen flex-col items-center justify-between p-24 ">
-      <h1>Teste de edição 05</h1>
+
+      <Header />
+
       {/* barra de topo da pagina */}
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex ">
 
