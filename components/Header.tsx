@@ -10,7 +10,11 @@ export function Header() {
                 <h1>Jhone Antonio</h1>
                 <div className="social-links mt-4 text-center">
                     <FaLinkedin />
+                </div>
+                <div className="social-links mt-4 text-center">
                     <FaGithub />
+                </div>
+                <div className="social-links mt-4 text-center">
                     <FaInstagram />
                 </div>
             </section>
